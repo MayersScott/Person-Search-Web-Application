@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Person Details</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Person Details</h1>
+        <table class="person-info">
+            <tr>
+                <td><strong>Unique ID:</strong></td>
+                <td>{{ person.unique_id }}</td>
+            </tr>
+            <tr>
+                <td><strong>First Name:</strong></td>
+                <td>{{ person.first_name }}</td>
+            </tr>
+            <tr>
+                <td><strong>Last Name:</strong></td>
+                <td>{{ person.last_name }}</td>
+            </tr>
+        </table>
+    </div>
+    <a href="{% url 'find_person' %}">Find Person</a>
+</body>
+</html>

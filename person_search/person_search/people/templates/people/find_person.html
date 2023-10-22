@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Person</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <label for="unique_id">Unique ID:</label>
+        <input type="text" name="unique_id" id="unique_id">
+        <input type="submit" value="Find Person">
+    </form>
+    <a href="{% url 'create_person' %}">Create Person</a>
+</body>
+</html>
