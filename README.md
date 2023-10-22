@@ -23,6 +23,7 @@ Clone the repository:
    ```bash
    git clone https://github.com/MayersScott/person-search.git
 
+
 1. Navigate to the project directory:
   cd person-search
 2. Create a virtual environment:
