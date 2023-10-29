@@ -39,4 +39,3 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-Please replace `2023`, `Mayers Scott`, and `Mayers Scott` with the appropriate values for your project. You can now create a GitHub repository, upload your project's code, and add these files to the root directory of the repository.
