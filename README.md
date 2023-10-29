@@ -1,41 +1,40 @@
-# Django-Crypto-Viewer
+# Person Search Web Application
 
-Django-Crypto-Viewer is a Django web application that allows users to view cryptocurrency prices. It fetches real-time cryptocurrency price data from Binance API and displays it in various currencies.
+Welcome to the Person Search Web Application repository! This web application allows you to search for individuals and view their details.
 
-## Installation
+## Features
 
-1. Clone the repository:
+- Search for people based on various criteria.
+- View detailed information about each person, including their unique ID, first name, and last name.
 
-   ```bash
-   git clone https://github.com/MayersScott/Django-Crypto-Viewer.git
-   cd Django-Crypto-Viewer
-1. Create a virtual environment (venv) and activate it:
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+## Getting Started
 
-2. Install the required packages:
-   pip install -r requirements.txt
+### Prerequisites
 
-3. Apply migrations:
-   python manage.py migrate
+Before you begin, ensure you have met the following requirements:
 
-4. Start the development server:
-   python manage.py runserver
+- Python 3.x
+- Django (install using `pip install Django`)
 
-5. Access the application in your web browser at http://localhost:8000.
+### Installation
 
-## Usage
-Visit the homepage to view real-time cryptocurrency prices.
-Prices are displayed in USD, EUR, RUB, and CNY.
-Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+Clone the repository:
 
-## Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them.
-Push your changes to your fork.
-Submit a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+   git clone https://github.com/MayersScott/person-search.git
 
+1. Navigate to the project directory:
+  cd person-search
+2. Create a virtual environment:
+  python -m venv .venv
+3. Activate the virtual environment:
+  On Windows:
+    .venv\Scripts\activate
+  On macOS and Linux:
+    source .venv/bin/activate
+4. Install dependencies:
+  pip install -r requirements.txt
+5. Run the development server:
+  python manage.py runserver
+6. Open your browser and access the application at http://localhost:8000/
 
+This project is licensed under the MIT License. See the LICENSE file for details.
