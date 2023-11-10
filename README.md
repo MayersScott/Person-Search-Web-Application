@@ -36,5 +36,11 @@ Clone the repository:
 5. Run the development server:
   python manage.py runserver
 6. Open your browser and access the application at http://localhost:8000/
+   
+![photo1](https://github.com/MayersScott/Person-Search-Web-Application/assets/148715834/0120d332-dd3f-4f03-95d7-781c1727a564)
+
+![photo2](https://github.com/MayersScott/Person-Search-Web-Application/assets/148715834/fecbcbf4-929f-4dc4-8297-d7140ce1aa71)
+
+![photo1](https://github.com/MayersScott/Person-Search-Web-Application/assets/148715834/c12fe7a6-cfb5-4c20-89fd-8879ddebe1c6)
 
 This project is licensed under the MIT License. See the LICENSE file for details.
